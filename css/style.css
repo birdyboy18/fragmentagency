@@ -1,3 +1,4 @@
+@import url("http://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic|Maven+Pro:700");
 /*===========================================================================================//
   GHOSTLY - A FRAMEWORK THAT DOESN'T APPEAR TO BE THERE
   VER - 0.0
@@ -20,6 +21,7 @@ body {
   font-size: 1.125rem;
   color: #ffffff;
   background: #333333;
+  font-family: "PT Sans", sans-serif;
 }
 p {
   color: #333333;
@@ -32,7 +34,10 @@ a {
 }
 h1,
 h2 {
-  font-weight: 400;
+  font-weight: 700;
+  font-family: "Maven Pro", sans-serif;
+  margin: 0 0 1.5rem 0;
+  padding: 0 0 0 0;
 }
 h1 {
   font-size: 2.25rem;
@@ -58,4 +63,18 @@ h2 {
 .container {
   max-width: 1280px;
   margin: 0 auto 0 auto;
+}
+.logo {
+  margin: 0 auto 0 auto;
+  padding: 200px 0 0 0;
+  text-align: center;
+}
+.logo img {
+  width: 134px;
+}
+.logo p {
+  color: #555555;
+  letter-spacing: 10px;
+  text-transform: uppercase;
+  margin: -20px 0 0 0;
 }
