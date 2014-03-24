@@ -21,7 +21,6 @@ body {
   line-height: 1.5;
   font-size: 1.125rem;
   color: #ffffff;
-  background: #333333;
   font-family: "PT Sans", sans-serif;
 }
 p {
@@ -35,7 +34,7 @@ a {
 }
 h1,
 h2 {
-  font-weight: 700;
+  font-weight: 900;
   font-family: "Maven Pro", sans-serif;
   margin: 0 0 1.5rem 0;
   padding: 0 0 0 0;
@@ -46,7 +45,7 @@ h1 {
   letter-spacing: 10px;
 }
 h2 {
-  font-size: 1.5em;
+  font-size: 1.3em;
   text-transform: uppercase;
   letter-spacing: 5px;
 }
@@ -67,17 +66,74 @@ h2 {
   margin: 0 auto 0 auto;
 }
 /*====Stuff for the landing page - Delete these after======*/
-.logo {
+.hero {
+  background-image: url('media/landing.jpg');
+  position: fixed;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  z-index: -10;
+}
+.hero .logo {
   margin: 0 auto 0 auto;
   padding: 200px 0 0 0;
   text-align: center;
 }
-.logo img {
+.hero .logo img {
   width: 134px;
 }
-.logo p {
+.hero .logo p {
   color: #555555;
   letter-spacing: 10px;
   text-transform: uppercase;
   margin: -20px 0 0 0;
+}
+.slogan {
+  margin: 100vh 0 0 0;
+  padding: 100px 0;
+  background: #ffffff;
+}
+.slogan h2 {
+  margin: 0;
+  text-align: center;
+  color: #19b5a5;
+}
+.gallery {
+  background: #ff6933;
+  height: 600px;
+}
+.about {
+  padding: 100px 0;
+  background: #ff0048;
+}
+.about h2 {
+  margin: 0;
+  text-align: center;
+  color: #fff;
+  font-weight: 900 !important;
+}
+.about p {
+  color: #fff;
+  margin: 0 auto;
+  text-align: justify;
+  padding-top: 30px;
+  width: 500px;
+  font-weight: 100;
+}
+.footer {
+  background-color: #080808;
+}
+.footer .logo {
+  margin: 0 auto 0 auto;
+  padding: 60px 0 50px 0;
+  text-align: center;
+}
+.footer .logo img {
+  width: 75px;
+}
+.footer .logo p {
+  color: #555555;
+  letter-spacing: 10px;
+  text-transform: uppercase;
+  margin: 0px 0 0 0;
 }
