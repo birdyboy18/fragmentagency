@@ -34,7 +34,7 @@ a {
 }
 h1,
 h2 {
-  font-weight: 900;
+  font-weight: 700;
   font-family: "Maven Pro", sans-serif;
   margin: 0 0 1.5rem 0;
   padding: 0 0 0 0;
@@ -67,7 +67,7 @@ h2 {
 }
 /*====Stuff for the landing page - Delete these after======*/
 .hero {
-  background-image: url('media/landing.jpg');
+  background-image: url('../media/landing.jpg');
   position: fixed;
   height: 100vh;
   top: 0;
@@ -100,17 +100,16 @@ h2 {
 }
 .gallery {
   background: #ff6933;
-  height: 600px;
+  height: auto;
 }
 .about {
-  padding: 100px 0;
+  padding: 90px 0 100px 0;
   background: #ff0048;
 }
 .about h2 {
   margin: 0;
   text-align: center;
   color: #fff;
-  font-weight: 900 !important;
 }
 .about p {
   color: #fff;
@@ -136,4 +135,9 @@ h2 {
   letter-spacing: 10px;
   text-transform: uppercase;
   margin: 0px 0 0 0;
+}
+#instafeed {
+  width: 80%;
+  margin: 10px auto;
+  overflow: hidden;
 }

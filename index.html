@@ -3,8 +3,14 @@
 	<head>
 		<title>Fragment Agency</title>
 		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="css/style(2).css">
 		<script src="http://code.jquery.com/jquery-2.1.0.min.js"></script>
 		<script src="js/main.js"></script>
+		<script src="js/modernizr.custom.63321.js"></script>
+		<script type="text/javascript" src="instafeed.min.js"></script>
+		<link rel="stylesheet" type="text/css" href="css/demo.css" />
+		<link rel="stylesheet" type="text/css" href="http://code.jquery.com/ui/1.9.2/themes/base/jquery-ui.css" />
+
 	</head>
 	<body>
 		<header>
@@ -25,8 +31,18 @@
 			</div>
 		</section>
 		<section class="gallery row">
-			<div class="container">
-				
+			<script type="text/javascript">
+			    var feed = new Instafeed({
+			        get: 'tagged',
+			        tagName: 'fragment',
+			        clientId: '6d845b23b1b84e57af0d709ae7bd08ba',
+			        limit: 50,
+			    });
+			    feed.run();
+			</script>
+			 <div id="instafeed"></div>
+			
+			<div class="container">	
 			</div>
 		</section>
 		<section class="about row">
@@ -37,9 +53,9 @@
 		</section>
 		<section class="footer row">
 			<div class="logo">
-				<img src="media/logo.png" alt="Fragment Logo">
+				<a href="http://www.fragmentagnecy.co.uk/shards"><img src="media/logo.png" alt="Fragment Logo">
 				
-				<p>Check out our Blog here!</p>
+				<p>Check out our Blog here!</p></a>
 			</div>
 		</section>
 
