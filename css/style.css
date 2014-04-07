@@ -64,6 +64,7 @@ h2 {
 .container {
   max-width: 1280px;
   margin: 0 auto 0 auto;
+  padding: 0 20px;
 }
 /*====Stuff for the landing page - Delete these after======*/
 .hero {
@@ -101,6 +102,13 @@ h2 {
 .gallery {
   background: #ff6933;
   height: auto;
+  margin: 0px auto;
+  padding: 60px 0;
+}
+.gallery h1 {
+  margin: 0 auto 50px;
+  text-align: center;
+  color: #fff;
 }
 .about {
   padding: 90px 0 100px 0;
@@ -132,9 +140,15 @@ h2 {
 }
 .footer .logo p {
   color: #555555;
+  padding: 0 0 10px 0;
   letter-spacing: 10px;
   text-transform: uppercase;
   margin: 0px 0 0 0;
+}
+.footer .logo p:hover {
+  border-bottom: 1px solid #555555;
+  width: 480px;
+  margin: 0 auto;
 }
 #instafeed {
   width: 80%;
