@@ -13,9 +13,15 @@
 
 	</head>
 	<body>
-		<header>
-			<a href="#" class="menu"></a>
+		<header class="row">
 			<nav>
+				<ul>
+					<li><a href="#gallery">Gallery</a></li>
+					<li><a href="#about">About</a></li>
+					<li><a href="http://www.fragmentagency.co.uk/shards" target="_blank">Blog</a></li>
+					<li><a href="http://issuu.com/gabyr0ckz/docs/fragment_brand_bible_done6" target="_blank">Brand Bible</a></li>
+					<li><a href="http://fragmentagency.co.uk/shards/fragments-manifesto/" target="_blank">Manifesto</a></li>
+				</ul>
 			</nav>
 		</header>
 		<section class="hero row">
@@ -24,6 +30,7 @@
 				<h1>Fragment</h1>
 				<p>Stay Snazzy</p>
 			</div>
+			
 		</section>
 		<section class="slogan row">
 			<div class="container">
@@ -31,7 +38,7 @@
 			</div>
 		</section>
 		<section class="gallery row">
-			<div class="container">
+			<div class="container" id="gallery">
 			<h1>Triangulation Gallery</h1>
 			<script type="text/javascript">
 			    var feed = new Instafeed({
@@ -39,7 +46,7 @@
 			        tagName: 'fragmentagency',
 			        clientId: '6d845b23b1b84e57af0d709ae7bd08ba',
 			        limit: 50,
-			        template: '<a href="{{link}}"" target="_blank"><img src="{{image}}"/></a>'
+			        template: '<a class="image" href="{{link}}"" target="_blank"><img src="{{image}}"/></a>'
 			    });
 			    feed.run();
 			</script>
@@ -49,7 +56,7 @@
 			</div>
 		</section>
 		<section class="about row">
-			<div class="container">
+			<div class="container" id="about">
 				<h2>A little bit about us</h2>
 				<p>Fragment is a six man agency based in the heart of Bournemouth, focusing on interactive installations based in public spaces. We aim to engage with members of the public to create a memorable and enjoyable experiences for people of all ages. Our motto is Stay Snazzy, because we don't like to be too serious about things as we want everything to be fun and enjoyable for us and our clients.</p>
 			</div>
