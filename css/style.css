@@ -50,6 +50,10 @@ h2 {
   letter-spacing: 5px;
 }
 /*====Structural Clases====*/
+header {
+  width: 100%;
+  overflow: hidden;
+}
 .row {
   width: 100%;
 }
@@ -129,6 +133,7 @@ h2 {
 }
 .footer {
   background-color: #080808;
+  padding: 90px 0;
 }
 .footer .logo {
   margin: 0 auto 0 auto;
@@ -154,4 +159,29 @@ h2 {
   width: 80%;
   margin: 10px auto;
   overflow: hidden;
+}
+nav {
+  padding: 30px;
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+nav ul {
+  list-style-type: none;
+  width: 100%;
+  margin: 0 auto;
+}
+nav ul li {
+  display: inline-block;
+  font-size: 28px;
+  font-family: 'Maven Pro', sans-serif;
+}
+nav ul li a {
+  color: #fff;
+  margin: 0 20px;
+  padding: 10px 15px;
+}
+nav ul li a:hover {
+  border: 1px solid #fff;
+  padding: 10px 13px;
 }
