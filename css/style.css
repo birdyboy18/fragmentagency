@@ -9,6 +9,13 @@
 //===========================================================================================*/
 /*=======Colours=========*/
 /*Typography - Uses the modular scale of 2:5 - Perfect Fifth*/
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  box-sizing: border-box;
+}
 html {
   height: 100%;
   padding: 0 0 0 0;
@@ -144,9 +151,10 @@ header {
   width: 75px;
 }
 .footer .logo p {
-  color: #555555;
+  color: #666;
   padding: 0 0 10px 0;
-  letter-spacing: 10px;
+  font-weight: 700;
+  letter-spacing: 5px;
   text-transform: uppercase;
   margin: 0px 0 0 0;
 }
@@ -156,32 +164,47 @@ header {
   margin: 0 auto;
 }
 #instafeed {
-  width: 80%;
-  margin: 10px auto;
-  overflow: hidden;
+  width: 66.66666666666667%;
+  float: left;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  box-sizing: border-box;
+  float: none;
+  margin: 0 auto 0 auto;
+  padding: 0 0 0 30px;
 }
 nav {
-  padding: 30px;
-  width: 100%;
-  max-width: 1000px;
-  margin: 0 auto;
+  padding: 30px 0;
+  width: 83.33333333333334%;
+  float: left;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  box-sizing: border-box;
+  float: none;
+  margin: 0 auto 0 auto;
 }
 nav ul {
   list-style-type: none;
-  width: 100%;
+  width: 85%;
   margin: 0 auto;
+  padding: 0 0 0 0;
 }
 nav ul li {
   display: inline-block;
-  font-size: 28px;
+  font-size: 1.55555556rem;
   font-family: 'Maven Pro', sans-serif;
 }
 nav ul li a {
   color: #fff;
   margin: 0 20px;
   padding: 10px 15px;
+  border: 3px solid transparent;
 }
 nav ul li a:hover {
-  border: 1px solid #fff;
-  padding: 10px 13px;
+  border: 3px solid #fff;
+  padding: 10px 15px;
 }

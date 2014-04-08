@@ -3,26 +3,24 @@
 	<head>
 		<title>Fragment Agency</title>
 		<link rel="stylesheet" href="css/style.css">
-		<link rel="stylesheet" href="css/style(2).css">
 		<script src="http://code.jquery.com/jquery-2.1.0.min.js"></script>
 		<script src="js/main.js"></script>
-		<script src="js/modernizr.custom.63321.js"></script>
 		<script type="text/javascript" src="instafeed.min.js"></script>
-		<link rel="stylesheet" type="text/css" href="css/demo.css" />
-		<link rel="stylesheet" type="text/css" href="http://code.jquery.com/ui/1.9.2/themes/base/jquery-ui.css" />
 
 	</head>
 	<body>
 		<header class="row">
-			<nav>
-				<ul>
-					<li><a href="#gallery">Gallery</a></li>
-					<li><a href="#about">About</a></li>
-					<li><a href="http://www.fragmentagency.co.uk/shards" target="_blank">Blog</a></li>
-					<li><a href="http://issuu.com/gabyr0ckz/docs/fragment_brand_bible_done6" target="_blank">Brand Bible</a></li>
-					<li><a href="http://fragmentagency.co.uk/shards/fragments-manifesto/" target="_blank">Manifesto</a></li>
-				</ul>
-			</nav>
+			<div class="container">
+				<nav>
+					<ul>
+						<li><a href="#gallery">Gallery</a></li>
+						<li><a href="#about">About</a></li>
+						<li><a href="http://www.fragmentagency.co.uk/shards" target="_blank">Blog</a></li>
+						<li><a href="http://issuu.com/gabyr0ckz/docs/fragment_brand_bible_done6" target="_blank">Brand Bible</a></li>
+						<li><a href="http://fragmentagency.co.uk/shards/fragments-manifesto/" target="_blank">Manifesto</a></li>
+					</ul>
+				</nav>
+			</div>
 		</header>
 		<section class="hero row">
 			<div class="logo">
@@ -46,7 +44,7 @@
 			        tagName: 'fragmentagency',
 			        clientId: '6d845b23b1b84e57af0d709ae7bd08ba',
 			        limit: 50,
-			        template: '<a class="image" href="{{link}}"" target="_blank"><img src="{{image}}"/></a>'
+			        template: '<a class="image" href="{{link}}"" target="_blank"><img src="http:{{image}}"/></a>'
 			    });
 			    feed.run();
 			</script>
